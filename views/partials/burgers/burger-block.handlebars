@@ -1,11 +1,14 @@
-<li>
+<button>>
 	{{name}}
 	{{#unless devoured}}
 	<button class="change-devoured" data-id="{{id}}" data-newdevoured="{{devoured}}">
 		Devour
 	</button>
 	{{/unless}}
-	{{!--  
-	<button class="delete-burger" data-id="{{this.id}}">DEVOUR!</button>
-	--}}
+	{{!-- Add a button if you want to restock a burger that has been devoured --}}
+	{{#if devoured}}
+	<button class="change-devoured" data-id="{{id}}" data-newdevoured="{{devoured}}"></button>
+	Re-Stock
+</button>
+{{/if}}
 </li>
