@@ -1,3 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: url("public\assets\pexels-photo-2015097 (1).jpeg");
+}
+
 li {
   padding: 5px;
   margin: 5px;
