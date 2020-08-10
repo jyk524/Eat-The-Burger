@@ -1,9 +1,5 @@
-* {
-  box-sizing: border-box;
-}
-
 body {
-  background: url("public\assets\pexels-photo-2015097 (1).jpeg");
+  background-image: url("https://media.gettyimages.com/photos/cheeseburger-and-french-fries-unhealthy-food-unhealthy-eating-fast-picture-id925578406?s=2048x2048")
 }
 
 li {
@@ -24,4 +20,8 @@ li {
 
 .form-group {
   margin-bottom: 5px;
+}
+
+.container {
+  margin-left: 20px;
 }
